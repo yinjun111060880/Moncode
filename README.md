@@ -4,4 +4,4 @@
 ## 一、[Two-dimensional look-up table method(二维查表法)](https://github.com/yinjun111060880/Moncode/tree/main/two_d)
 
 
-## 二、[待续](https://github.com/yinjun111060880/Moncode)
+## 二、[One-dimensional method](https://github.com/yinjun111060880/Moncode)
