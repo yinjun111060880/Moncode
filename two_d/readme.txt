@@ -10,7 +10,7 @@ This is a fast Galois field library, and all the source files are free software;
 2) Use the function to initial your field: gf_init(int nOrder, int nPrim) in which the first parameter is the order of Galois field, and the the second parameter is the primitive polynomial. 
 For example, gf_init(8, 0x187); The Galois field GF(2^8) is created, and the primitive ploynomial is 0x187.
 
-0x187 = 110000111 (1*X^0+1*X^1+1*X^6+1*X^7+1*X^8+1*X^9)
+0x187 = 110000111 (1*X^8+1*X^7+1*X^2+1*X^1+1*X^0)
 
 In the gf.c file, we list some primitive ploynomial.
 
@@ -21,6 +21,5 @@ gf_inv(a): Return a's inverse element b, a*b =1;
 Notice: This library is based on look-up table. We need to create a 2-dimentional multiplication talbe and a 2-dimentional logarithm table, so the storage overhead is very high when the field size becomes large. When the field size is GF(2^12), 128MBytes are required to store the two tables.
 
 3 If you have any question on this library, you can send e-mail to us.
-yuwangyang@mail.njust.edu.cn
-http://www.sensor608.com/gf.html
-Download url  http://www.sensor608.com/gf.zip
+Lei Wang： leiwang@njupt.edu.cn
+Jun Yin： junyin@njupt.edu.cn
